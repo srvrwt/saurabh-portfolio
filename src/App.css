@@ -1,0 +1,159 @@
+
+
+:root{
+  --primary:#1d2a34;    
+  --secondary:#262b344d;    
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: var(--secondary);
+    background-color: #f8f8f8;
+    padding: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  color: #1d2a34;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 20px 0;
+  margin: 20px 0 40px;
+}
+h1{
+  font-size: 80px;
+}
+
+p{
+  letter-spacing: 1px;
+}
+.container{
+  width:  100%;
+  max-width: 1400px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+}
+
+img{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: var(--text-100)
+  
+}
+
+.d-flex{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.p-tb{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.p-tb-5{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.p-b{
+  padding-bottom: 5rem;
+
+}
+.p-tb-15{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.m-btm{
+  margin-bottom: 1rem;
+}
+.m-btm-50{
+  margin-bottom: 50px;
+}
+.mt-5{
+  margin-top: 5rem;
+}
+
+.mt-24{
+  margin-top: 24px;
+}
+
+.d-grid {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+}
+
+.d-grid.grid-4 {
+  grid-template-columns: 30px 1fr 2fr .5fr;
+  cursor: pointer;
+}
+
+.bdr-tb {
+  border: 1px solid ;
+  border-style: solid none;
+}
+.bdr-b {
+
+  border-bottom: 1px solid ;
+
+}
+.m-b-2{
+  margin-bottom: 2rem;
+
+}
+
+.mt-2{
+  margin-top: 2rem;
+
+}
+
+.m-tb-2{
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
+
+textarea{
+  resize: vertical;
+}
+
+.project_wrapper {
+    background-image: url(./img/projects.webp);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: #000729de;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+
+}
+
+.project_wrapper .sec_heading h2,
+  .project_wrapper * {
+  color: #f7fcff;
+  background: transparent;
+  -webkit-text-fill-color: #f7fcff;
+}
